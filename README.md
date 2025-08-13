@@ -13,3 +13,12 @@ The file [`crash.cpp`](./crash.cpp) demonstrates the use of **undocumented Windo
 > **Do NOT run this file on production or personal systems with unsaved work.**
 >
 > It is provided strictly for **educational and research purposes**.
+
+### Compile Fourier Code
+
+```bash
+g++ fourier.cpp -o fourier \
+-IC:/rtools44/mingw64/include/SDL2 \
+-LC:/rtools44/mingw64/lib \
+-lmingw32 -lSDL2main -lSDL2
+```
